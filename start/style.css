@@ -1,0 +1,55 @@
+body, h1, h2 {
+ margin:0;
+ padding:0;
+}
+body {
+ background:#039be5;
+ font-family: Arial, sans-serif;
+}
+h1 {
+ padding:10px;
+ background:#ffcc00;
+}
+
+/*---------------------------*/
+/* Read Users */
+/*---------------------------*/
+#user-list {
+ margin:0;
+ padding:0;
+ width:180px;
+ float:left;
+ margin:10px;
+ border:1px solid #4fc3fc;
+}
+
+#user-list h2 {
+ padding:10px;
+ margin:0;
+ color:white;
+}
+
+#user-list li {
+ padding:5px 10px;
+ border-top:1px solid #4fc3fc;
+ cursor: pointer;
+ color:white;
+ font-style: italic;
+ list-style: none 
+}
+
+#user-list li:hover {
+ background: #4fc3fc;
+}
+
+#user-detail {
+ float:left;
+ width:200px;
+ margin:10px;
+ margin-left:0;
+ padding:10px;
+ border:1px solid #4fc3fc;
+ color:white;
+}
+
+
